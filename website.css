@@ -1,3 +1,5 @@
+/* Shared styles for all pages */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -49,6 +51,55 @@ body {
     background-color: #ccc;
     padding: 10px;
     text-align: center;
+    color: #fff;
+  }
+  
+  /* Styles for the passwords.html page only */
+  
+  #password-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .password-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .password-table th,
+  .password-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .password-table th {
+    background-color: #ff6600;
     color: #fff;
   }
   
